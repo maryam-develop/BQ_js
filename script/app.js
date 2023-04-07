@@ -156,3 +156,20 @@
 
 //  console.log(tooManyCats);
 
+// DAy 2 Assignment practice
+
+// Make a variable named zakat percentage and store a value of 2.5 % (hint: 2.5 % means 0.025)
+// Make one more variable named as user input and take the input from the user using the prompt. 
+// Make sure the input value should be of type number (hint: use the way by which we can convert a string prompt to a number)
+// Make a variable named as a result and assign it the value that should be the multiple of the zakat percentage and user input.
+// At the last alert, this result shows a message like "your zakat value is xxx"
+
+
+// SOLUTION
+
+var zakat_percetage =0.025; //2.5%
+// var user_input = prompt("Enter Your Amount");
+var user_input = Number(prompt("Enter Your Amount"));
+var result = zakat_percetage * user_input;
+
+alert("your zakat value is " + result);
