@@ -167,9 +167,10 @@
 
 // SOLUTION
 
-var zakat_percetage =0.025; //2.5%
-// var user_input = prompt("Enter Your Amount");
-var user_input = Number(prompt("Enter Your Amount"));
-var result = zakat_percetage * user_input;
+// var zakat_percetage =0.025; //2.5%
+// // var user_input = prompt("Enter Your Amount");
+// var user_input = Number(prompt("Enter Your Amount"));
+// var result = zakat_percetage * user_input;
 
-alert("your zakat value is " + result);
+// alert("your zakat value is " + result);
+
