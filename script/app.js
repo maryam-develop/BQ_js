@@ -174,3 +174,42 @@
 
 // alert("your zakat value is " + result);
 
+// Day 2a 6 April(class practice):
+
+// var engnum = +prompt("Enter your english obtained marks");
+// var mathsnum = +prompt("Enter your maths obtained marks");
+// var islnum = +prompt("Enter your islam obtained marks");
+// var urdunum = +prompt("Enter your urdu obtained marks");
+
+// var resul = engnum + urdunum + islnum + mathsnum;
+// var perentage = (resul / 400) * 100;
+// // console.log(perentage);
+// if (perentage >= 90) {
+//     console.log("Grade A , Well Done");
+// } else if (perentage >= 80) {
+//     console.log("Grade B");
+// } else if (perentage >= 70) {
+//     console.log("Grade C");
+// } else {
+//     console.log("Grade D , unfortunately You are failed, Better luck for next time");
+// } 
+
+// var num = +prompt("Enter Your Num")
+// if (num == 3) {
+//     console.log("true")
+// }
+// else {
+//     console.log("False")
+// }
+
+// console.log(num <= 3)
+
+// var username = "MaRyAm";
+// console.log(username.toUpperCase());
+
+// console.log(username.toLowerCase());
+
+var friendlist = ['Halima', 'Sehrish', 'Amna', 'Sadia', 'Ulfat'];
+// console.log(friendlist);
+
+
