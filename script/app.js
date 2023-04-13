@@ -46,7 +46,7 @@
 
 
 
-// Day 1b 6 April:
+// Day 1b 6 April: book practice
 
 
 // alert ( "hi" );
@@ -174,7 +174,7 @@
 
 // alert("your zakat value is " + result);
 
-// Day 2a 6 April(class practice):
+// Day 2a 14 April(class practice):
 
 // var engnum = +prompt("Enter your english obtained marks");
 // var mathsnum = +prompt("Enter your maths obtained marks");
@@ -229,4 +229,5 @@
 
 // console.log(friendlist);
 
+// Day 2b 14 April: book practice
 
