@@ -59,4 +59,19 @@
 // guessed the secret number". Otherwise, if the guess is too high or too low, display
 // an appropriate message informing the user to guess again.
 
+// SOLUTION:
+
+// var secretNumber = 6;
+// var user_input = +prompt("Guess The NUM");
+
+// // console.log(secretNumber + " is" +" Secret Numebre and you choose "+ user_input + " Number ");
+// if (secretNumber == user_input) {
+//     alert("Congratulations! You guessed the secret number");
+// } else if ( user_input >= secretNumber  && user_input == 8) {
+//     alert(" You guessed too high number");
+// } else if (user_input <= secretNumber  && user_input == 4) {
+//     alert("Try Again! You guessed too low number");
+// } else {
+//     alert("Please Guess Again");
+// }
 
