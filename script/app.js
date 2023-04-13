@@ -209,7 +209,24 @@
 
 // console.log(username.toLowerCase());
 
-var friendlist = ['Halima', 'Sehrish', 'Amna', 'Sadia', 'Ulfat'];
+// var friendlist = ['Halima', 'Sehrish', 'Amna', 'Sadia', 'Ulfat'];
+
+// friendlist [5] = "Benish";
+
+// friendlist.push("benish");
+// friendlist.pop();
+// friendlist.unshift("Amber", "Maham", "Huma");
+// friendlist.shift();
+// var newStd = friendlist.slice(2,8)
+// var newStd1 = friendlist.slice(0,3);
+// friendlist[3] = "Sadi Imam"
+// console.log(friendlist[3])
+// console.log(friendlist);
+// console.log(newStd);
+// console.log(newStd1);
+
+// friendlist.splice(3,0,"Kanza", "Fouzia", "Mahnoor");
+
 // console.log(friendlist);
 
 
