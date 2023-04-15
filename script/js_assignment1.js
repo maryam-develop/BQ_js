@@ -75,3 +75,120 @@
 //     alert("Please Guess Again");
 // }
 
+// Task 4:
+// Create a program that asks the user to enter a name, and then prints out the name
+// with the first letter capitalized (Make your name in capitalized case).
+
+// SOLUTION:
+
+// var userName = prompt("Enter You Good Name");
+// userName.toLowerCase();
+// var firtChar = userName.slice(0,1);
+// firtChar = firtChar.toUpperCase();
+// alert(firtChar+userName.toLowerCase()); print using alert
+// document.write(firtChar+userName.toLowerCase()); print using document
+// console.log(firtChar+userName.toLowerCase()); print using console
+
+
+// task 5
+// In this task, you will be creating two empty arrays called "contactNumbers" and
+// "contactNames". Using the prompt, you will ask the user to enter a contact number
+// and contact name. You will then push these values into their respective arrays
+// using the push method. After adding all the contacts, you will display the contact
+// numbers and names in the console. To do this, you will need to use a for loop to
+// iterate through both arrays and log each element to the console.
+// Make sure to use descriptive variable names and comment on your code for clarity.
+
+// SOLUTION:
+
+// var contactNumbers = [];
+// var contactNames = [];
+
+// for (let i = 0; i < 3; i++) {
+//    var num = +prompt("enter your Number");
+//    var name = prompt("Enter your Name");
+
+//    contactNames.push(name);
+//    contactNumbers.push(num);
+// }
+
+
+
+// for (let i = 0; i < contactNumbers.length; i++) {
+//      console.log("contact " + [i+1], contactNames[i], contactNumbers[i ]);
+
+// }
+
+// Task 6:
+// Create an Array that contains different products, and get input from the user in which you
+// ask your user to give the position of that element he/she wants. Now remove that Item
+// from your array and console the removed item, Also display the remaining items in the
+// array and total number of items remaining.
+
+// SOLUTION:
+
+// var breakFast = ["bread", "milk" , "milkshake", "tea", "coffee", "egg", "juice", "paratha", "rusk"]
+// var userInput= +prompt("what You want , how to arrange this position " + breakFast);
+// var newBrkFast = breakFast.slice(userInput,0)
+// // newBrkFast.slice(userInput,0);
+
+// // console.log(breakFast);
+// console.log(newBrkFast);
+
+// Task 7:
+// Create a program that asks the user for their nationality, gender, and age using the prompt
+// function. The program should then use nested if-else statements to determine if the
+// person is eligible to vote.
+// First, the program should check if the person is Pakistani or Indian. If they are not, the
+// program should display a message saying they are not eligible to vote.
+// If they are Pakistani or Indian, the program should then check their gender. If the person is
+// male and over the age of 18, they are eligible to vote. If the person is female and over the
+// age of 18, the program should ask if they are married. If they are married, they are eligible
+// to vote. If they are not married, they are not eligible to vote.
+// If the person is under 18, the program should display a message saying they are not eligible
+// to vote.
+
+// SOLUTION:
+
+// var nationality = prompt("are you pakistani or indian");
+// var age = +prompt("your age please");
+// var gender = prompt("are you Male or Female");
+
+// if (nationality == "Pakistani" || nationality == "Indian" || nationality == "pakistani" || nationality == "indian" ) {
+//     if (age >= 18) {
+//         if ( gender == "male" || gender == "Male") {
+//             console.log("you are eligible to vote")
+//         }
+        
+//         else if (gender == "female" || gender == "Female") {
+//             var status = prompt("married or unmarried");
+//          if (age >= 18 && status == "married") {
+//             console.log("you are eligible to vote")
+//          } else {
+//             console.log("you are un married you are not eligible")
+//          }
+//         }
+//         }  else {
+//         console.log("you are under age")
+//     }
+    
+// } else {
+//     console.log("you are not eligible to vote")
+// }
+
+
+
+// Task 8:
+// You have an array of that contains the name of Pakistani Teams Player selected for
+// WorldCup (15 Players) named as WorldCupSquad. Now tomorrow we have a match with
+// India, So make an array of final team players (11 Players) that will be playing in tomorrows
+// match from the WorldCupSquad array.
+// (Hint : Make sure it should not disturb the array that contains 15 players instead you have
+// to make a copy of this array)
+
+// SOLUTION:
+// var worldCupSquad = ["Ahmed Shehzad", "Azhar Ali", "Babar Azam", "Fahim Ashraf", "Fakhar Zaman", "Haris Sohail", "Hasan Ali", "Imad Wasim", "Junaid Khan", "Mohammad Amir", "Mohammad Hafeez"," Rumman Raees", "Sarfraz Ahmed (capt & wk)", "Shadab Khan", "Shoaib Malik"];
+// var worldCupTeam = worldCupSquad.slice(1,12);
+
+// console.log(worldCupSquad);
+// console.log(worldCupTeam);
