@@ -127,12 +127,12 @@
 
 // SOLUTION:
 
-var breakFast = ["bread", "milk" , "milkshake", "tea", "coffee", "egg", "juice", "paratha", "rusk"]
-var userInput= +prompt("what You want to eat " + breakFast);
-var newBrkFast = breakFast.splice(userInput,1);
+// var breakFast = ["bread", "milk" , "milkshake", "tea", "coffee", "egg", "juice", "paratha", "rusk"]
+// var userInput= +prompt("what You want to eat " + breakFast);
+// var newBrkFast = breakFast.splice(userInput,1);
 
-console.log(breakFast);
-console.log(newBrkFast);
+// console.log(breakFast);
+// console.log(newBrkFast);
 
 // Task 7:
 // Create a program that asks the user for their nationality, gender, and age using the prompt

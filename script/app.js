@@ -174,7 +174,7 @@
 
 // alert("your zakat value is " + result);
 
-// Day 2a 14 April(class practice):
+// Day 3a 14 April(class practice):
 
 // var engnum = +prompt("Enter your english obtained marks");
 // var mathsnum = +prompt("Enter your maths obtained marks");
@@ -230,4 +230,37 @@
 // console.log(friendlist);
 
 // Day 2b 14 April: book practice
+
+// Day 3a 15 April(book practice):
+
+// var x = prompt("Where does the Pope live?");
+
+// if (x === "Vatican") {
+//     alert("Correct!");
+//      }
+
+
+
+
+
+
+
+
+//day 4a 08 May (class practice );
+
+// Chap 22 - 30
+var sentence = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Et eos distinctio illo qui est aliquam excepturi vero numquam aperiam?Accusantium nobis natus sed?Vel architecto, impedit sequi sint itaque quis?";
+// var wordReplace =  
+''
+// console.log(sentence.replace("dolor", "maryam"))
+
+
+// for (var i = 0; i < sentence.length; i++){
+    
+//     if (sentence.slice(i, i+9) == "dolor sit" ){
+//         sentence = sentence.slice(0,i) + "hello" + sentence.slice(i+9);
+//     }
+// }
+
+// console.log(sentence);
 
