@@ -249,18 +249,90 @@
 //day 4a 08 May (class practice );
 
 // Chap 22 - 30
-var sentence = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Et eos distinctio illo qui est aliquam excepturi vero numquam aperiam?Accusantium nobis natus sed?Vel architecto, impedit sequi sint itaque quis?";
+// var sentence = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Et eos distinctio illo qui estaliquam excepturi vero numquam aperiam?Accusantium nobis natus sed?Vel architecto, impedit sequi sint itaque quis?";
 // var wordReplace =  
 ''
-// console.log(sentence.replace("dolor", "maryam"))
+// console.log(sentence.replace("consectetur adipisicing elit", "maryam"))
 
 
 // for (var i = 0; i < sentence.length; i++){
-    
+// console.log (sentence[i])
+
 //     if (sentence.slice(i, i+9) == "dolor sit" ){
 //         sentence = sentence.slice(0,i) + "hello" + sentence.slice(i+9);
 //     }
 // }
 
 // console.log(sentence);
+//  var wordtoReplace = "adipisicing elit"
+//     for (var i = 0; i < sentence.length; i++) {
+//         if (sentence.slice(i, i + wordtoReplace.length) == wordtoReplace) {
+//             sentence = sentence.slice(0, i) + "Hello" + sentence.slice(i + wordtoReplace.length)
+//         }
+//     }
+                    
+// console.log(sentence);
 
+// var ghazal = "hum sindh mein rehne wale mehmannawaz hai saree, apni gadi riyo nkalo sath m jana tujh ko bithalun, apni gadi riyo nkalo sath m jana tujh ko bithalun, machli palla khilao tujhe sindho darya k kinare, karachi s kashmore tak dikhao sare nazare, dil s tuko dawat hai kabhi ao sindh hmare"
+//  for (let i = 0; i < ghazal.length; i++) {
+//     console.log(ghazal[i] );
+
+//     if(ghazal.slice(i, i+11 )== "mehmannawaz" ){
+//         ghazal = ghazal.slice(0,i) + "muhafiz e Watan" + ghazal.slice(i+11);
+//     }
+
+//  }
+
+// var wordtoReplace = "sindh";
+// for (var i = 0; i < ghazal.length; i++){
+//     if (ghazal.slice(i, i + wordtoReplace.length) == wordtoReplace) {
+//         ghazal = ghazal.slice(0, i) + "Karachi" + ghazal.slice(i + wordtoReplace.length)
+//     }
+// }
+
+// console.log(ghazal)
+
+
+
+// var ghazal = "hum sindh mein rehne wale mehmannawaz hai saree, apni gadi riyo nkalo sath m jana tujh ko bithalun, apni gadi riyo nkalo sath m jana tujh ko bithalun, machli palla khilao tujhe sindho darya k kinare, karachi s kashmore tak dikhao sare nazare, dil s tuko dawat hai kabhi ao sindh hmare"
+
+// console.log(ghazal.replace(/apni/g,"love"))
+
+
+// var str = "js is not easy dude, js make proper sence";
+// var rep =  str.replace("js", "css");
+// console.log(rep);
+
+// var string = "golden vidor doers goat";
+
+// var repString = string.replace(/go/g,"GO");
+// console.log(repString);
+
+// var string = "Mr Blue has a blue house and a blue car.";
+// var repString = string.replace(/blue/gi,"Red");
+// console.log(repString);
+
+// var string = "Mr Blue has a blue house and a blue car.";
+// var repString = string.replace(/blue/g,"Red");
+// console.log(repString);
+
+
+// var string = "Mr Blue has a blue house and a blue car.";
+// var repString = string.replace(/Blue/g,"Red");
+// console.log(repString);
+
+// console.log(string.indexOf("blue"));
+// console.log(string.lastIndexOf("."));
+
+// var user = "maRyAm";
+// console.log(Math.round(67.78));
+
+// console.log(user.charAt(0).toUpperCase()+ user.slice(1).toLowerCase());
+//check all math 
+// console.log(Math.abs(x=5));
+// console.log(Math.clz32(x = 180));
+
+// var fazi = Math.round(Math.random());
+// console.log(fazi)
+
+var myAge = "24.63";
