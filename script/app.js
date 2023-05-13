@@ -335,4 +335,77 @@
 // var fazi = Math.round(Math.random());
 // console.log(fazi)
 
-var myAge = "24.63";
+// var myAge ="24.67"
+// undefined
+// parseInt(myAge);
+// 24
+// parseFloat(myAge)
+// 24.67
+// var num = 7863543
+// undefined
+// num.toString()
+// "7863543"
+// var numb = 16.987643
+// undefined
+// numb.toFixed()
+// "17"
+// numb.toFixed(2)
+// "16.99" 
+
+// bool ex 30 
+
+var current = new Date();
+// console.log(currentDate);
+
+var Days = ['sun', 'mond', 'tues','wed','thur', 'fri', 'sat']
+
+// console.log(current.getDate());
+// console.log(current.getDay());
+// console.log(current.getFullYear());
+// console.log(current.getHours());
+// console.log(current.getMilliseconds());
+// console.log(current.getMinutes());
+// console.log(current.getMonth());
+// console.log(current.getSeconds());
+// console.log(current.getTime());
+// console.log(current.getTimezoneOffset());
+// console.log(current.getUTCDate());
+// console.log(days[current.getDay()]);
+
+var myDOB = new Date("june 11, ____ 04:00");
+// console.log(myDOB);
+// var myDOB = new Date()
+
+myDOB.setMonth(5);
+myDOB.setDate(11);
+myDOB.setFullYear(19);
+myDOB.setHours(16,00);
+
+// console.log(myDOB);
+
+var myAge = current - myDOB
+console.log(myAge/(10000*60*60*24*365.25))
+
+
+    // // var myage = current - myDOB
+    // // console.log(myage/(1000*60*60*24*365.25))
+    // // age calculator
+    // function ageCalculator(userDOB) {
+    //     var current = new Date()
+    //     var myage = current - userDOB
+    //     return myage / (1000 * 60 * 60 * 24 * 365.25)
+    // }
+    // var myDOB = new Date("July 19 , 1999 10:07")
+    // var myage = ageCalculator(myDOB)
+    // console.log(myage)
+    // function loginUSer() {
+    //     var email = document.getElementById('email').value;
+    //     var password = document.getElementById('password').value;
+    //     console.log(email,password)
+    // }
+    // // function demo() {
+    // //     console.log("I am running")
+    // // }
+    // // function my_mouse() {
+    // //     console.log("Mouse Event")
+    // // }
