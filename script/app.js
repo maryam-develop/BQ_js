@@ -357,7 +357,7 @@
 var current = new Date();
 // console.log(currentDate);
 
-var Days = ['sun', 'mond', 'tues','wed','thur', 'fri', 'sat']
+// var Days = ['sun', 'mond', 'tues','wed','thur', 'fri', 'sat']
 
 // console.log(current.getDate());
 // console.log(current.getDay());
@@ -372,19 +372,19 @@ var Days = ['sun', 'mond', 'tues','wed','thur', 'fri', 'sat']
 // console.log(current.getUTCDate());
 // console.log(days[current.getDay()]);
 
-var myDOB = new Date("june 11, ____ 04:00");
+// var myDOB = new Date("june 11, ____ 04:00");
 // console.log(myDOB);
-// var myDOB = new Date()
+var myDOB = new Date()
 
 myDOB.setMonth(5);
 myDOB.setDate(11);
-myDOB.setFullYear(19);
-myDOB.setHours(16,00);
+myDOB.setFullYear(1998);
+// myDOB.setHours(16,00);
 
 // console.log(myDOB);
 
-var myAge = current - myDOB
-console.log(myAge/(10000*60*60*24*365.25))
+var myAge = current - myDOB;
+console.log(myAge/(1000*60*60*24*365.25))
 
 
     // // var myage = current - myDOB
