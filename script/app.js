@@ -354,7 +354,7 @@
 
 // bool ex 30 
 
-var current = new Date();
+// var current = new Date();
 // console.log(currentDate);
 
 // var Days = ['sun', 'mond', 'tues','wed','thur', 'fri', 'sat']
@@ -374,38 +374,29 @@ var current = new Date();
 
 // var myDOB = new Date("june 11, ____ 04:00");
 // console.log(myDOB);
-var myDOB = new Date()
+// var myDOB = new Date()
 
-myDOB.setMonth(5);
-myDOB.setDate(11);
-myDOB.setFullYear(1998);
+// myDOB.setMonth(5);
+// myDOB.setDate(11);
+// myDOB.setFullYear(2000);
 // myDOB.setHours(16,00);
 
 // console.log(myDOB);
 
-var myAge = current - myDOB;
-console.log(myAge/(1000*60*60*24*365.25))
+// var myAge = current - myDOB;
+// console.log(myAge/(1000*60*60*24*365.25))
 
+//age Calculator
+// function ageCalculator(userDOB){
+// var current= new Date()
+//     var myAge = current-userDOB
+//     return myAge/(1000/60*60*24*365.25)
+// }
+// var userDOB = new Date("june 11, 1998 ");
+// var myAge = ageCalculator(userDOB);
+// console.log(myAge);
 
-    // // var myage = current - myDOB
-    // // console.log(myage/(1000*60*60*24*365.25))
-    // // age calculator
-    // function ageCalculator(userDOB) {
-    //     var current = new Date()
-    //     var myage = current - userDOB
-    //     return myage / (1000 * 60 * 60 * 24 * 365.25)
-    // }
-    // var myDOB = new Date("July 19 , 1999 10:07")
-    // var myage = ageCalculator(myDOB)
-    // console.log(myage)
-    // function loginUSer() {
-    //     var email = document.getElementById('email').value;
-    //     var password = document.getElementById('password').value;
-    //     console.log(email,password)
-    // }
-    // // function demo() {
-    // //     console.log("I am running")
-    // // }
-    // // function my_mouse() {
-    // //     console.log("Mouse Event")
-    // // }
+function demo(){
+    console.log("i am running");
+}
+
