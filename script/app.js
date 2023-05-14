@@ -396,7 +396,13 @@
 // var myAge = ageCalculator(userDOB);
 // console.log(myAge);
 
-function demo(){
-    console.log("i am running");
-}
+// function demo(){
+//     console.log("i am running");
+// }
 
+function my_mouse(){
+    console.log("mouse event");
+}
+function demo(){
+    console.log("hi")
+}
