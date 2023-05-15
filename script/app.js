@@ -400,9 +400,24 @@
 //     console.log("i am running");
 // }
 
-function my_mouse(){
-    console.log("mouse event");
-}
-function demo(){
-    console.log("hi")
-}
+// function my_mouse(){
+//     console.log("mouse event");
+// }
+// function demo(){
+//     console.log("hi")
+// }
+     // switch case
+// var username=" ";
+// switch (username) {
+//     case "Maryam":
+//         console.log("Hello Maryam");
+        
+//         break;
+//         case "yusra":
+//             console.log("Hello yusra");
+            
+//             break;
+//     default:
+//         console.log("Hello paglo");
+//         break;
+// }
