@@ -421,3 +421,15 @@
 //         console.log("Hello paglo");
 //         break;
 // }
+
+// for or while loop
+
+// for (var index = 0; index <3; index++) {
+//     console.log(index)
+    
+// }
+// index = 0;
+// while (index <3) {
+//     console.log(index)
+//     index++
+// }
