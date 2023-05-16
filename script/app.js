@@ -396,13 +396,21 @@
 // var myAge = ageCalculator(userDOB);
 // console.log(myAge);
 
+// function loginUser() {
+//      var email = document.getElementById('email').value;
+//      var password = document.getElementById('password').value;
+
+
+//      console.log(email,password)
+//  }
+
 // function demo(){
 //     console.log("i am running");
 // }
 
-// function my_mouse(){
-//     console.log("mouse event");
-// }
+function my_mouse(){
+    console.log("mouse event");
+}
 // function demo(){
 //     console.log("hi")
 // }
@@ -433,3 +441,10 @@
 //     console.log(index)
 //     index++
 // }
+// var index = 0;
+// do {
+//      index++
+//      console.log(index)
+// } while (index <0);
+
+
