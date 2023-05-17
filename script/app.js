@@ -408,9 +408,9 @@
 //     console.log("i am running");
 // }
 
-function my_mouse(){
-    console.log("mouse event");
-}
+// function my_mouse(){
+//     console.log("mouse event");
+// }
 // function demo(){
 //     console.log("hi")
 // }
